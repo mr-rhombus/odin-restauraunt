@@ -14,7 +14,7 @@ function render() {
 
   const descriptionDiv = document.createElement("div");
   descriptionDiv.classList.add("home-description");
-  descriptionDiv.textContent = faker.lorem.paragraph;
+  descriptionDiv.textContent = faker.lorem.paragraph();
   contentDiv.appendChild(descriptionDiv);
 }
 
