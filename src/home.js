@@ -1,3 +1,5 @@
+import bannerImg from "../assets/sleep_banner.png";
+
 import { faker } from "@faker-js/faker";
 
 const contentDiv = document.querySelector(".content");
@@ -6,7 +8,7 @@ function render() {
   const imgDiv = document.createElement("div");
   imgDiv.classList.add("home-img");
   const imgEl = document.createElement("img");
-  imgEl.src = "../assets/sleep_banner.png";
+  imgEl.src = bannerImg;
   imgDiv.appendChild(imgEl);
   contentDiv.appendChild(imgDiv);
 
