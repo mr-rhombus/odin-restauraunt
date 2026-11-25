@@ -15,3 +15,5 @@ function render() {
   descriptionDiv.textContent = faker.lorem.paragraph;
   contendDiv.appendChild(descriptionDiv);
 }
+
+export { render };
