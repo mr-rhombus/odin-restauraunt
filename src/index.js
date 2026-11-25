@@ -1,1 +1,3 @@
-console.log("Hello from the Odin restaurant!");
+import { render as renderHome } from "./home";
+
+renderHome();
